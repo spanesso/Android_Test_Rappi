@@ -99,7 +99,6 @@ public class RedditsListRepository extends BaseRepository {
                                             redditItem.setId(id);
                                             redditItem.setRedditDataItemList(mRedditDataItemList);
 
-                                            Log.i("**", "----->" + redditItem.getId());
 
                                             mRealm.copyToRealmOrUpdate(redditItem);
 

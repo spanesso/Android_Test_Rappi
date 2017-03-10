@@ -93,7 +93,6 @@ private IRedditsItemDataPresenter mRedditsItemDataPresenter;
     @Override
     public void successItem(RedditItem redditItem) {
          mRedditItemDataList = redditItem.getRedditDataItemList();
-        Log.e("***","--size-->"+mRedditItemDataList.size());
         this.mRedditsDataItemRecyclerViewAdapter.setRedditsItemDataList(mRedditItemDataList);
         this.mRedditsDataItemRecyclerViewAdapter.notifyDataSetChanged();
     }

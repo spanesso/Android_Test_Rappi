@@ -10,9 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-<!--
+
         <ScrollView
-            android:id="@+id/ScrollViewDataDesc"
+            android:id="@+id/scrollViewDataDesc"
             android:layout_height="match_parent"
             android:layout_width="match_parent">
 
@@ -24,7 +24,13 @@
 
         </ScrollView>
 
--->
+
+
+        <it.sephiroth.android.library.imagezoom.ImageViewTouch
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imgDataItemShow"
+            android:scaleType="fitCenter" />
 
     </android.support.v7.widget.CardView>
 </RelativeLayout>

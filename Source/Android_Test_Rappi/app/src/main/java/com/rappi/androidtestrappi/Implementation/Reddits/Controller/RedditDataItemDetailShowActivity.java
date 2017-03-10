@@ -6,6 +6,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
 import com.rappi.androidtestrappi.App.Base.BaseActivity;
 import com.rappi.androidtestrappi.App.Base.MyApp;
@@ -15,31 +18,32 @@ import com.rappi.androidtestrappi.Implementation.Models.RedditItem;
 import com.rappi.androidtestrappi.Implementation.Reddits.Presenter.IRedditsItemDataPresenter;
 import com.rappi.androidtestrappi.Implementation.Reddits.Presenter.RedditsItemDataPresenter;
 import com.rappi.androidtestrappi.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
+
+import it.sephiroth.android.library.imagezoom.ImageViewTouch;
 
 public class RedditDataItemDetailShowActivity extends BaseActivity  {
 
 
-    private RecyclerView mRedditsItemDataListRecyclerView;
+    private ScrollView scrollViewDataDesc;
+    private TextView itemDataDesc;
+    private ImageViewTouch imgDataItemShow;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reddit_item_detail);
-
-
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle(getResources().getString(R.string.data_item_data));
-        actionBar.setHomeButtonEnabled(true);
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setDisplayShowHomeEnabled(true);
+        setContentView(R.layout.activity_reddit_item_detail_show);
 
 
 
 
-        this.mRedditsItemDataListRecyclerView = (RecyclerView)  findViewById(R.id.recyclerViewListDataItem);
+
+        this.scrollViewDataDesc = (ScrollView)  findViewById(R.id.scrollViewDataDesc);
+        this.itemDataDesc = (TextView)  findViewById(R.id.itemDataDesc);
+        this.imgDataItemShow = (ImageViewTouch)  findViewById(R.id.imgDataItemShow);
 
 
 
@@ -48,6 +52,21 @@ public class RedditDataItemDetailShowActivity extends BaseActivity  {
             String data = extras.getString("data");
             String type = extras.getString("type");
 
+            showDataItemSelected(data,type);
+
+        }
+    }
+
+    public void showDataItemSelected(String data, String type){
+        if(type.equals("img")){
+
+            this.imgDataItemShow.setVisibility(View.VISIBLE);
+            this.scrollViewDataDesc.setVisibility(View.INVISIBLE);
+            Picasso.with(MyApp.getContext()).load(data).into( this.imgDataItemShow);
+        }else{
+            this.imgDataItemShow.setVisibility(View.INVISIBLE);
+            this.itemDataDesc.setText(data);
+            this.scrollViewDataDesc.setVisibility(View.VISIBLE);
         }
     }
 
@@ -56,16 +75,6 @@ public class RedditDataItemDetailShowActivity extends BaseActivity  {
         finish();
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                onBackPressed();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
 
 
 

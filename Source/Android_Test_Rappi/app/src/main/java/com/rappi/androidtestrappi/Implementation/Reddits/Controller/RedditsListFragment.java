@@ -69,7 +69,7 @@ public class RedditsListFragment extends Fragment implements IRedditsListView {
 
         setHasOptionsMenu(true);
 
-         mProgressDialog = ProgressDialog.show(MyApp.getCurrentActivity(),getResources().getString(R.string.load_list_dialog_title),  getResources().getString(R.string.load_list_dialog_desc), true);
+        mProgressDialog = ProgressDialog.show(MyApp.getCurrentActivity(), getResources().getString(R.string.load_list_dialog_title), getResources().getString(R.string.load_list_dialog_desc), true);
 
         actionBar = ((MainActivity) getActivity()).getSupportActionBar();
         internetStatusProvider = new InternetStatusProvider(MyApp.getContext());
@@ -79,7 +79,6 @@ public class RedditsListFragment extends Fragment implements IRedditsListView {
         this.mRedditsListRecyclerViewAdapter = new RedditsListRecyclerViewAdapter();
 
         this.mRedditsListPresenter = new RedditsListPresenter(this);
-
 
 
         if (this.mRedditsListPresenter.isListFull()) {
@@ -96,7 +95,7 @@ public class RedditsListFragment extends Fragment implements IRedditsListView {
 
                 if (fragment != null) {
 
-                  actionBar.setTitle(title);
+                    actionBar.setTitle(title);
                     FragmentTransaction fragmentTransaction = ((MainActivity) getActivity()).getSupportFragmentManager().beginTransaction();
                     fragmentTransaction.replace(R.id.content_frame, fragment);
                     fragmentTransaction.commit();
@@ -117,7 +116,7 @@ public class RedditsListFragment extends Fragment implements IRedditsListView {
         this.mRedditsListRecyclerView.setLayoutManager(this.mLayoutManager);
         this.mRedditsListRecyclerView.setHasFixedSize(true);
         this.mRedditsListRecyclerView.setAdapter(this.mRedditsListRecyclerViewAdapter);
-     //   mProgressDialog.show();
+        //   mProgressDialog.show();
 
         return view;
     }
@@ -132,11 +131,11 @@ public class RedditsListFragment extends Fragment implements IRedditsListView {
 
     private void showRedditList(List<RedditItem> redditList) {
 
-       mProgressDialog.dismiss();
-     mProgressDialog.hide();
-        Log.i("*******","------------>");
+        mProgressDialog.dismiss();
+        mProgressDialog.hide();
+
         if (redditList.size() > 0) {
-         mProgressDialog.dismiss();
+            mProgressDialog.dismiss();
             this.mRedditsListRecyclerViewAdapter.setRedditsList(redditList);
             this.mRedditsListRecyclerViewAdapter.notifyDataSetChanged();
 
@@ -157,8 +156,8 @@ public class RedditsListFragment extends Fragment implements IRedditsListView {
 
     @Override
     public void success(List<RedditItem> redditList) {
-         this.mRedditList = redditList;
-         this.showRedditList(redditList);
+        this.mRedditList = redditList;
+        this.showRedditList(redditList);
     }
 
     @Override

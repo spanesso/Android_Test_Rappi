@@ -85,13 +85,19 @@ public class RedditsDataItemRecyclerViewAdapter extends RecyclerView.Adapter<Rec
                 public void onClick(View v) {
 
                     final String value = redditDataItem.getValue();
+                    Intent intent = new Intent(MyApp.getContext(),RedditDataItemDetailShowActivity.class);
 
                     if(value.indexOf(".png") != -1 || value.indexOf(".jpg") != -1 ){
                         //Data is image
-                        Log.e("**","image");
+                        intent.putExtra("type","img");
+
                     }else{
                         //Data is text
+                        intent.putExtra("type","text");
                     }
+                    intent.putExtra("data",redditDataItem.getValue());
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    MyApp.getContext().startActivity(intent);
                 }
             });
         }
