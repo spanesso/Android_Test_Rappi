@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_1e40048e4c21f667d01f07e1ad1a902ce6244599/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_b83a36caf80bc2890380f45d7fd0c29028e133e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_5974708ea9b06c98baa10169048806ed9f77ed73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_8d21fa4bf8bf98ff69e6301a86b5c378f44bc6fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_a347554435ee8bc1044ac59dd2c37beddeadf400/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_40bc5b06ebe5673de883bb66ea13c8dce1b147e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2f992a4dc787cd9167a681c0eb3953e11e9d14a5">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a33cf43d389f51097728e15b51f7fc1ed6f1825/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_1b6c9b061ac89fe694152a668848fac41b324d8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.5.2/ecf534dba3a8446ce84cbb797d314763be212a68/glide-3.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.5.2_b90d0e79b7c399db6e989325bea794890166c025/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e71ccd4e7c0ef3ff20a0b32efb45e8534a30133a">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a08469e241f6cba0f3951d87ec494f272cb82fc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/it.sephiroth.android.library.imagezoom/imagezoom/2.2.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="406557a6f4369568e5515f8a3c66c97b23f21534">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/it.sephiroth.android.library.imagezoom-imagezoom-2.2.5_85eb37572ffe4cbed96694092d9e116d17669221/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_ea4468f6dbb39ead8f7d7e0c2a98396f9666f1f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ffa9059b7a10f238ed571091c27256502311189c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ceccaa304f26072b194d9e3b560269d30aac9417/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_7985d72839cb8c7222c023f9c8832689db8fd05d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_7c509ea0072f16a67ee85756822eb98e58811256/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_8362379f74823dbb28960558361f7213332d5e78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_54d2b51c3146021567421a293a7bf0d3e4df0ef3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_b6e2fee5761174b8b5c35fe6c33c87b4e9653ff1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_9489792bd807d364f838db33b8275513c56cd13c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_0b0b51ef04e43926ec7d7e60374c9d2da98bf8cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_cec26dc8d303c442be8478bc11ace082f0d61129/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_3f3d20aa928fe929725aea019e0c381ccbc70812/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.5/686c608d1805b6d4d425ec4459e88164ffc85870/gson-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.5_4e60ea647fa9f18432fbc288459fac92a5577621/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4e6470fe5081bd76bb727ea9d0d9de373ac5940b">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-24.2.1_4f1abcb0772ee2dc54dc7fa6f68c8f6c516eb493/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_24fc4f002279a9968ffe051d72b1ca75a09bb62c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/.gradle/caches/modules-2/files-2.1/io.realm/realm-android/0.87.4/97d167507fcf75bc96d2123af0f3b1b5614ca3b7/realm-android-0.87.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="97d167507fcf75bc96d2123af0f3b1b5614ca3b7">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-android-0.87.4_44b3693fabe3701d582b6aa9e7f8291cfdfa069d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e3acbc31a9480bab8a588e9893b6c00b6c1578d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_ab716e18ac3c4e96d46a8206ea6fe6566bdc7e8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_a91359fcf01022266342301238be859730d03b37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_564563a3a55d770200c9e27bd9025c567c095cfe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_acf188149589c83c76b20ceddfdebfa09e7e3fec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_73ffdf0a9ee5baf4b21d940c35298e59e283cbcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.7/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d6825a79ca6c134dd6f26fc15eff443b5215dbdc">
+        <dex dex="/Users/sapanesso/Documents/Proyectos/Android_Test_Rappi/app/build/intermediates/transforms/dex/debug/folders/1000/10/pl.droidsonroids.gif-android-gif-drawable-1.1.7_483915acbbbc717dfbba9e1d092a61478e783901/classes.dex" />
+    </item>
+
+</items>

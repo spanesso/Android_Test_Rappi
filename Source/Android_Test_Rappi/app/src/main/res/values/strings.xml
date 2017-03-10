@@ -1,0 +1,45 @@
+<resources>
+
+
+    <string name="app_name">Android Test</string>
+    <string name="author_name">Sebastian Alfredo Panesso Laverde</string>
+
+    <!-- DASHBOARD -->
+    <string name="dashboar_description">Mobile application made by <b>Sebastian Alfredo Panesso Laverde</b>, to aspire to the position of <b>Android Developer</b>.</string>
+    <string name="dashboar_btn_show_list">Show List</string>
+    <string name="dashboar_no_connection_title">No internet connection</string>
+    <string name="dashboar_no_connection_desc">You need to be connected to the internet to see the list for the first time</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- GENERAL -->
+    <string name="tye_footer_enterprise">Táctica \u0026  Estrategia \u00A9 2016. Todos los derechos reservados.</string>
+    <string name="dialog_alert_title">Alerta</string>
+    <string name="neutralButton">Aceptar</string>
+    <string name="cancelButton">Cancelar</string>
+
+    <!-- INTERNET CONNECTION -->
+    <string name="internet_connection_failed_title"><u>Error de Conexión</u></string>
+    <string name="internet_connection_failed_desc"><u>Verifica tu conexión a datos o tu acceso a WiFi.</u></string>
+
+    <!-- MENU -->
+    <string name="menu_dashboard">Home</string>
+    <string name="menu_list">Reddit List</string>
+    <string name="data_item">Reddit Item</string>
+    <string name="data_item_data">Show Data</string>
+    <string name="menu_connection_error">Connection Error</string>
+
+
+    <!-- REDDITS LIST  -->
+    <string name="load_list_dialog_title">Cargando Lista</string>
+    <string name="load_list_dialog_desc">Un momento por favor...</string>
+
+</resources>
